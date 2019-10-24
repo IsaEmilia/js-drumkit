@@ -1,0 +1,49 @@
+* {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(pics/night-629084_1920.jpg);
+    background-size: cover;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    color: white;
+    transition: all .07s ease;
+    background: rgba(0,0,0,0.6);
+    margin: 1rem;
+    text-shadow: 0 0 .5rem black;
+}
+.playing {
+    transform: scale(1.1);
+    background-color: orange;
+    color: black;
+    box-shadow: 0 0 1rem orangered;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: white;
+  }
